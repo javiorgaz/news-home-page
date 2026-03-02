@@ -1,0 +1,23 @@
+{
+  "name": "1-news-homepage",
+  "version": "1.0.0",
+  "description": "![Design preview for the News homepage coding challenge](preview.jpg)",
+  "homepage": "https://github.com/javiorgaz/news-home-page#readme",
+  "bugs": {
+    "url": "https://github.com/javiorgaz/news-home-page/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javiorgaz/news-home-page.git"
+  },
+  "license": "ISC",
+  "author": "javier",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch main.scss styles.css"
+  },
+  "devDependencies": {
+    "sass": "^1.97.3"
+  }
+}

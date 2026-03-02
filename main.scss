@@ -1,0 +1,30 @@
+$color-main-orange: #e9ab53;
+$color-main-red: #f15e50;
+
+$color-off-white: #fffdfa;
+$color-grayish-blue: #c5c6ce;
+$color-dark-grayish-blue: #5d5f79;
+$color-very-dark-blue: #00001a;
+
+@font-face {
+  font-family: "Inter";
+  src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+////////////
+//BASE
+////////////
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Inter";
+}
